@@ -1,6 +1,5 @@
 .row {
   max-width: $grid-width;
-  background-color: aqua;
   margin: 0 auto;
 
   &:not(:last-child) {
@@ -17,7 +16,6 @@
     &:not(:last-child) {
       margin-right: $grid-gutter-horizontal;
     }
-    background-color: blue;
   }
 
   .col-1-of-2 {
